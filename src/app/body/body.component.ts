@@ -7,31 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BodyComponent implements OnInit {
 
-  loading: boolean = true;
-
-  usuarios Array<any>: [
-  ]
-
   constructor() { }
 
   ngOnInit(): void {
-
-    setTimeout(() => {
-      
-      this.usuarios.push(
-        {
-          name: 'Igancio',
-          age: '28'
-        },
-        {
-          name: 'Héctor',
-          age: '19'
-        }
-
-      )
-
-    }, timeout);
-
-  }
-
+}
 }
