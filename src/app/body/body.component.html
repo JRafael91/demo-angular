@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <main class="container"> 
     <div class="container">
         
@@ -29,3 +30,25 @@
     </div>
 </main>
 
+=======
+<main class="container">
+  <div class="container">
+    <table class="table mt-5" *ngIf="!loading">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Edad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let usuario of usuarios; let i = index;">
+          <th scope="row">{{i+1}}</th>
+          <td>{{usuario.name}}</td>
+          <td>{{usuario.age}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+>>>>>>> 29cee3eb9ca40e604a298a1cd88c04f3f68f92b2
